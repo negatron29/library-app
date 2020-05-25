@@ -1,0 +1,33 @@
+table, th, td {
+    border: 1px solid black;
+    border-spacing: 5px;
+    border-collapse: collapse;
+}
+
+table {
+    /*width: 100%;*/
+}
+
+th {
+    text-align: center;
+    
+}
+
+th, td {
+    padding: 5px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+}
+
+#delButton {
+    height: 55px;
+    width: 47px;
+}
+
+#buttonHolder {
+    flex-direction: column;
+}
+
